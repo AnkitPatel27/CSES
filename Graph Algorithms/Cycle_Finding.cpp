@@ -80,7 +80,7 @@ int main(){
     {
         if(cycleNode==cycle[i]){
             break;
-        }
+        } 
         cout<<cycle[i]<<" ";
 
     }

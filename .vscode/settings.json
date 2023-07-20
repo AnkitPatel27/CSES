@@ -19,7 +19,9 @@
     "cmath": "cpp",
     "random": "cpp",
     "*.tcc": "cpp",
-    "system_error": "cpp"
+    "system_error": "cpp",
+    "chrono": "cpp",
+    "variant": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled",
   "C_Cpp_Runner.cCompilerPath": "gcc",
