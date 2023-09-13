@@ -70,7 +70,7 @@ ll query(int index,int l,int r,int x,int y,vl &a,vl &seg,vl &lazy){
     if(l!=r && lazy[index]!=0){
         lazy[2*index]+=lazy[index];
         lazy[2*index+1]+=lazy[index];
-        seg[index]+=(lazy[index]*((y-x)+1));
+        seg[index]+=(lazy[index]*((r-l)+1));
         lazy[index]=0;
     }
 
